@@ -1,26 +1,26 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import GenericTable from "./components/GenericTable/GenericTable";
+import { TableItem, TableColumn } from "./@types";
 
-function App() {
+const App: React.FC = () => {
+  const headers: TableColumn[] = [
+    { key: "id", label: "ID" },
+    { key: "name", label: "Name" },
+    { key: "age", label: "Age" },
+    { key: "gender", label: "Gender" },
+  ];
+
+  // You can import the data from the JSON file dynamically in a real-world scenario
+  // For simplicity, import it directly here
+  const data: TableItem[] = require("././data/data.json").data;
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Generic Table Assignment</h1>
+      <GenericTable data={data} headers={headers} />
     </div>
   );
-}
+};
 
 export default App;
