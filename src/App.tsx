@@ -11,13 +11,11 @@ const App: React.FC = () => {
     { key: "gender", label: "Gender" },
   ];
 
-  // You can import the data from the JSON file dynamically in a real-world scenario
-  // For simplicity, import it directly here
   const data: TableItem[] = require("././data/data.json").data;
 
   return (
     <div className="App">
-      <h1>Generic Table Assignment</h1>
+      <h2>Generic Table Assignment</h2>
       <GenericTable data={data} headers={headers} />
     </div>
   );
