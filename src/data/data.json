@@ -5,13 +5,15 @@
     { "id": 3, "name": "Bill Kenet", "age": 15, "gender": "Male" },
     { "id": 4, "name": "Serena Will", "age": 40, "gender": "Female" },
     { "id": 5, "name": "Avi Levi", "age": 23, "gender": "Male" },
-    { "id": 6, "name": "Beni Stain", "age": 32, "gender": "Male" },
-    { "id": 7, "name": "James Rich", "age": 28, "gender": "Male" },
-    { "id": 8, "name": "Mali Luke", "age": 22, "gender": "Female" },
+    { "id": 6, "name": "Yoni Deri", "age": 32, "gender": "Male" },
+    { "id": 7, "name": "James Richard", "age": 28, "gender": "Male" },
+    { "id": 8, "name": "Mali Dei", "age": 22, "gender": "Female" },
     { "id": 9, "name": "John Bill", "age": 55, "gender": "Male" },
     { "id": 10, "name": "Mai Gil", "age": 18, "gender": "Female" },
     { "id": 11, "name": "Jacklin Choen", "age": 52, "gender": "Female" },
-    { "id": 12, "name": "Jane Mil", "age": 50, "gender": "Female" },
-    { "id": 13, "name": "Mark Moe", "age": 27, "gender": "Male" }
+    { "id": 12, "name": "Jane Milstain", "age": 50, "gender": "Female" },
+    { "id": 13, "name": "Mark Moe", "age": 27, "gender": "Male" },
+    { "id": 14, "name": "Lia Mark", "age": 48, "gender": "Female" },
+    { "id": 15, "name": "Harper Buzz", "age": 60, "gender": "Male" }
   ]
 }
